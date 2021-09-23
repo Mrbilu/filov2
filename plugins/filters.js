@@ -50,8 +50,8 @@ Asena.addCommand({on: 'text', fromMe: false }, (async (message, match) => {
     if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '918129624395@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        if (!!message.mention && message.mention[0] == '919947030129@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/akhilmention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
 const array = ['nexusnw']
 array.map( async (a) => {
@@ -180,7 +180,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '919562881715@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/tear.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['dheeran','trux','Blum','nexus','sayooj','akhil','bijith','bilal ser','mr bilu','tear','tear pc','nw akhil','Filo','nexusnw']
+const array = ['scout','dheeran','trux','Blum','nexus','sayooj','akhil','bijith','bilal ser','mr bilu','tear','tear pc','nw akhil','Filo','nexusnw']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
