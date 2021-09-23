@@ -147,8 +147,8 @@ if (Config.PLKBGM == 'two') {
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '918129624395@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention2.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        if (!!message.mention && message.mention[0] == '919947030129@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention2.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.AFNN) {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
