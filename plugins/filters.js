@@ -121,7 +121,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/tear2.m
         if (!!message.mention && message.mention[0] == Config.AFNN) {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['madlivinston','abin','scout','salih','lechu','dheeran','jithin','akshay','sameer','Blum','nexus','blind','dilu','kiran','midhun','sanjay','aswin','bijith','vyshali','mr bilu','msn','adarsh sir','ajmal','akhil','ambadi','aze','bilal ser','dingan','farhu','fz','nadeem','trux','tear','Aflah','Farha','mine','Filo','nexusnw','nw akhil','tear pc','sayooj','kuruvi']
+const array = ['lisa','madlivinston','abin','scout','salih','lechu','dheeran','jithin','akshay','sameer','Blum','nexus','blind','dilu','kiran','midhun','sanjay','aswin','bijith','vyshali','mr bilu','msn','adarsh sir','ajmal','akhil','ambadi','aze','bilal ser','dingan','farhu','fz','nadeem','trux','tear','Aflah','Farha','mine','Filo','nexusnw','nw akhil','tear pc','sayooj','kuruvi']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -180,7 +180,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '919562881715@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/tear.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['aze','kuruvi','dilu','salih','scout','dheeran','trux','Blum','nexus','sayooj','akhil','bijith','bilal ser','mr bilu','tear','tear pc','nw akhil','Filo','nexusnw']
+const array = ['lisa','aze','kuruvi','dilu','salih','scout','dheeran','trux','Blum','nexus','sayooj','akhil','bijith','bilal ser','mr bilu','tear','tear pc','nw akhil','Filo','nexusnw']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
