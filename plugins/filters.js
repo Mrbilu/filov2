@@ -121,7 +121,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/tear2.m
         if (!!message.mention && message.mention[0] == Config.AFNN) {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['aliya','abhi','devil','lisa','madlivinston','abin','scout','salih','lechu','dheeran','jithin','akshay','sameer','Blum','nexus','blind','dilu','kiran','midhun','sanjay','aswin','bijith','vyshali','mr bilu','msn','adarsh sir','ajmal','akhil','ambadi','aze','bilal ser','dingan','farhu','fz','nadeem','trux','tear','Aflah','Farha','mine','Filo','nexusnw','nw akhil','tear pc','sayooj','kuruvi']
+const array = ['abin','abhi','aliya','devil','lisa','madlivinston','scout','salih','lechu','dheeran','jithin','akshay','sameer','Blum','nexus','blind','dilu','kiran','midhun','sanjay','aswin','bijith','vyshali','mr bilu','msn','adarsh sir','ajmal','akhil','ambadi','aze','bilal ser','dingan','farhu','fz','nadeem','trux','tear','Aflah','Farha','mine','Filo','nexusnw','nw akhil','tear pc','sayooj','kuruvi']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
