@@ -21,6 +21,16 @@
             "required": true,
             "value": "en"
         },
+         "SONGD": {
+            "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
+            "required": true,
+            "value": "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ"
+        },
+        "SONGU": {
+            "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
+            "required": true,
+            "value": "ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ"
+        },
          "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
@@ -30,6 +40,11 @@
             "description": "Link Engelleme Sistemi. Link Blocking System.",
             "required": true,
             "value": "false"
+        },
+           "BGM_DURATION": {
+            "description": "FUNY BGM DURATION  codded by SAIDALI",
+            "required": false,
+            "value": "39999600"
         },
          "STICKER_REPLY": {
             "description": "if you need Automatic sticker reply type'true'. Otherwise false",
